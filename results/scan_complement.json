@@ -1,0 +1,117 @@
+{
+  "pathway": "complement",
+  "pathway_name": "Complement System",
+  "query": "(\"complement activation\" OR \"complement inhibitor\" OR \"C5a receptor\" OR \"complement pathway drug\") AND (\"drug repurposing\" OR \"drug repositioning\" OR \"off-target effect\" OR \"repurposed\") AND (innate immunity OR innate immune)",
+  "articles_found": 4,
+  "articles": [
+    {
+      "pmid": "33206027",
+      "title": "Sepsis target validation for repurposing and combining complement and immune checkpoint inhibition therapeutics.",
+      "abstract": "",
+      "authors": [
+        "Patr\u00edcia R S Rodrigues",
+        "Noemi Picco",
+        "B Paul Morgan",
+        "Peter Ghazal"
+      ],
+      "journal": "Expert opinion on drug discovery",
+      "pub_date": "2021-May",
+      "doi": "10.1080/17460441.2021.1851186",
+      "mesh_terms": [
+        "Animals",
+        "Biological Products",
+        "Complement Activation",
+        "Drug Repositioning",
+        "Drug Therapy, Combination",
+        "Humans",
+        "Immune Checkpoint Inhibitors",
+        "Models, Theoretical",
+        "Precision Medicine",
+        "Sepsis"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "34800652",
+      "title": "COVID-19 and immunothrombosis: Pathophysiology and therapeutic implications.",
+      "abstract": "The coagulopathy of COVID-19 is characterised by significantly elevated D Dimer and fibrinogen, mild thrombocytopenia and a mildly prolonged PT/APTT. A high incidence of thrombotic complications occurs despite standard thromboprophylaxis. The evidence to date supports immunothrombosis as the underlying mechanism for this coagulopathy which is triggered by a hyperinflammatory response and endotheliopathy. A hypercoagulable state results from endothelial damage/activation, complement activation, platelet hyperactivity, release of Extracellular Neutrophil Traps, activation of the coagulation system and a \"hypofibrinolytic\" state. Significant cross-talk occurs between the innate/adaptive immune system, endothelium and the coagulation system. D dimer has been shown to be the most reliable predictor of disease severity, thrombosis, and overall survival. In this context, targeting pathways upstream of coagulation using novel or repurposed drugs alone or in combination with other anti-thrombotic agents may be a rational approach to prevent the mortality/morbidity due to COVID-19 associated coagulopathy.",
+      "authors": [
+        "Ming Sheng Lim",
+        "Simon Mcrae"
+      ],
+      "journal": "Critical reviews in oncology/hematology",
+      "pub_date": "2021-Dec",
+      "doi": "10.1126/scitranslmed.abd3876",
+      "mesh_terms": [
+        "Anticoagulants",
+        "COVID-19",
+        "Humans",
+        "SARS-CoV-2",
+        "Thromboinflammation",
+        "Venous Thromboembolism"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "32000582",
+      "title": "Complement in the Development of Post-Traumatic Epilepsy: Prospects for Drug Repurposing.",
+      "abstract": "Targeting neuroinflammation is a novel frontier in the prevention and treatment of epilepsy. A substantial body of evidence supports a key role for neuroinflammation in epileptogenesis, the pathological process that leads to the development and progression of spontaneous recurrent epileptic seizures. It is also well recognized that traumatic brain injury (TBI) induces a vigorous neuroinflammatory response and that a significant proportion of patients with TBI suffer from debilitating post-traumatic epilepsy. The complement system is a potent effector of innate immunity and a significant contributor to secondary tissue damage and to epileptogenesis following central nervous system injury. Several therapeutic agents targeting the complement system are already on the market to treat other central nervous system disorders or are well advanced in their development. The purpose of this review is to summarize findings on complement activation in experimental TBI and epilepsy models, highlighting the potential of drug repurposing in the development of therapeutics to ameliorate post-traumatic epileptogenesis.",
+      "authors": [
+        "Min Chen",
+        "Stephen R Edwards",
+        "David C Reutens"
+      ],
+      "journal": "Journal of neurotrauma",
+      "pub_date": "2020-Mar",
+      "doi": "10.1089/neu.2019.6942",
+      "mesh_terms": [
+        "Anticonvulsants",
+        "Brain Injuries, Traumatic",
+        "Complement Activation",
+        "Complement System Proteins",
+        "Drug Repositioning",
+        "Epilepsy, Post-Traumatic",
+        "Humans"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "36040684",
+      "title": "The inflammatory signature in monocytes of Sj\u00f6gren's syndrome and systemic lupus erythematosus, revealed by the integrated Reactome and drug target analysis.",
+      "abstract": "BACKGROUND: The innate immune regulation, especially by the\u00a0type I IFN signature in the CD14+\u2009monocytes, is known to be critical in the pathogenesis of autoimmune Sj\u00f6gren's syndrome (SjS) and systemic lupus erythematosus (SLE). OBJECTIVE: Since patients with one condition can be overlapped with another, this study is to identify shared differentially expressed genes (DEGs) in SjS and SLE compared to healthy controls (HCs) and refine transcriptomic profiles with the integrated Reactome and gene-drug network analysis for an anti-inflammation therapy. METHODS: CD14+\u2009monocytes were purified from whole blood of SjS and SLE patients (females, ages from 32 to 62) and subject to bulk RNA-sequencing, followed by data analyses for comparison with HC monocytes (females, ages 30 and 33). Functional categorizations, using Gene Ontology (GO) and the Reactome pathway analysis, were performed and DEGs associated with therapeutic drugs were identified from the Drug Repurposing Hub (DHUB) database. RESULTS: The GO analysis revealed that DEGs in the inflammatory response and the cellular response to cytokine were highly enriched in both conditions. A propensity toward M1 macrophage differentiation appears to be prominent in SjS while the Response to Virus was significant in SLE monocytes. Through the Reactome pathway analysis, DEGs in the IFN signaling and the cytokine signaling in immune system were most significantly enriched in both. Upregulation of NGF-induced transcription activity in SjS and the complement cascade activity in SLE were also noted. Multiple anti-inflammatory drugs, such as prostaglandin-endoperoxide synthase and angiotensin-I-converting- enzyme were associated with the DEGs in these conditions. CONCLUSIONS: Taken together, our analysis indicates distinct inflammatory transcriptomic profiles shared in SjS and SLE monocytes. Comprehensive characterizations of the data from these conditions will ultimately allow differential diagnosis of each condition and identification of therapeutic targets.",
+      "authors": [
+        "Kyung Eun Lee",
+        "Seyoung Mun",
+        "Song-Mi Kim",
+        "Wonseok Shin",
+        "Won Jung",
+        "Joon Paek",
+        "Jungnam Lee",
+        "Erin Hudson",
+        "Wesley H Reeves",
+        "Kyudong Han",
+        "Seunghee Cha"
+      ],
+      "journal": "Genes & genomics",
+      "pub_date": "2022-Oct",
+      "doi": "10.1007/s13258-022-01308-y",
+      "mesh_terms": [
+        "Adult",
+        "Angiotensins",
+        "Cytokines",
+        "Female",
+        "Humans",
+        "Lupus Erythematosus, Systemic",
+        "Middle Aged",
+        "Monocytes",
+        "Nerve Growth Factor",
+        "Prostaglandin-Endoperoxide Synthases",
+        "RNA",
+        "Sjogren's Syndrome"
+      ],
+      "keywords": []
+    }
+  ],
+  "associations": [],
+  "scanned_at": "2026-03-27T00:56:31.239264"
+}

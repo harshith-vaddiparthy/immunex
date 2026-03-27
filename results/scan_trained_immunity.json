@@ -1,0 +1,262 @@
+{
+  "pathway": "trained_immunity",
+  "pathway_name": "Trained Immunity",
+  "query": "(\"trained immunity\" OR \"innate immune memory\" OR \"epigenetic reprogramming monocyte\" OR \"beta-glucan training\" OR \"BCG trained immunity\") AND (\"drug repurposing\" OR \"drug repositioning\" OR \"off-target effect\" OR \"repurposed\") AND (innate immunity OR innate immune)",
+  "articles_found": 9,
+  "articles": [
+    {
+      "pmid": "39081326",
+      "title": "Trained immunity inducers in cancer immunotherapy.",
+      "abstract": "While most of the cancer immunotherapy strategies engage adaptive immunity, especially tumor-associated T cells, the small fraction of responding patients and types of cancers amenable, and the possibility of severe adverse effects limit its usage. More effective and general interventions are urgently needed. Recently, a de facto innate immune memory, termed 'trained immunity', has become a new research focal point, and promises to be a powerful tool for achieving long-term therapeutic benefits against cancers. Trained immunity-inducing agents such as BCG and fungal glucan have been shown to be able to avert the suppressive tumor microenvironment (TME), enhance T cell responses, and eventually lead to tumor regression. Here, we review the current understating of trained immunity induction and highlight the critical roles of emergency granulopoiesis, interferon \u03b3 and tissue-specific induction. Preclinical and clinical studies that have exploited trained immunity inducers for cancer immunotherapy are summarized, and repurposed trained immunity inducers from other fields are proposed. We also outline the challenges and opportunities for trained immunity in future cancer immunotherapies. We envisage that more effective cancer vaccines will combine the induction of trained immunity with T cell therapies.",
+      "authors": [
+        "Yongjun Sui",
+        "Jay A Berzofsky"
+      ],
+      "journal": "Frontiers in immunology",
+      "pub_date": "2024-01",
+      "doi": "10.1038/s41577-024-00990-1",
+      "mesh_terms": [
+        "Humans",
+        "Neoplasms",
+        "Immunotherapy",
+        "Tumor Microenvironment",
+        "Animals",
+        "Immunity, Innate",
+        "Immunologic Memory",
+        "Cancer Vaccines",
+        "T-Lymphocytes",
+        "Interferon-gamma",
+        "Trained Immunity"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "35774779",
+      "title": "Emerging Concepts in Innate Lymphoid Cells, Memory, and Reproduction.",
+      "abstract": "Members of the innate immune system, innate lymphoid cells (ILCs), encompass five major populations (Natural Killer (NK) cells, ILC1s, ILC2s, ILC3s, and lymphoid tissue inducer cells) whose functions include defense against pathogens, surveillance of tumorigenesis, and regulation of tissue homeostasis and remodeling. ILCs are present in the uterine environment of humans and mice and are dynamically regulated during the reproductive cycle and pregnancy. These cells have been repurposed to support pregnancy promoting maternal immune tolerance and placental development. To accomplish their tasks, immune cells employ several cellular and molecular mechanisms. They have the capacity to remember a previously encountered antigen and mount a more effective response to succeeding events. Memory responses are not an exclusive feature of the adaptive immune system, but also occur in innate immune cells. Innate immune memory has already been demonstrated in monocytes/macrophages, neutrophils, dendritic cells, and ILCs. A population of decidual NK cells characterized by elevated expression of NKG2C and LILRB1 as well as a distinctive transcriptional and epigenetic profile was found to expand during subsequent pregnancies in humans. These cells secrete high amounts of interferon-\u03b3 and vascular endothelial growth factor likely favoring placentation. Similarly, uterine ILC1s in mice upregulate CXCR6 and expand in second pregnancies. These data provide evidence on the development of immunological memory of pregnancy. In this article, the characteristics, functions, and localization of ILCs are reviewed, emphasizing available data on the uterine environment. Following, the concept of innate immune memory and its mechanisms, which include epigenetic changes and metabolic rewiring, are presented. Finally, the emerging role of innate immune memory on reproduction is discussed. Advances in the comprehension of ILC functions and innate immune memory may contribute to uncovering the immunological mechanisms underlying female fertility/infertility, placental development, and distinct outcomes in second pregnancies related to higher birth weight and lower incidence of complications.",
+      "authors": [
+        "Rodolfo R Favaro",
+        "Katherine Phillips",
+        "Romane Delaunay-Danguy",
+        "Kaja Uj\u010di\u010d",
+        "Udo R Markert"
+      ],
+      "journal": "Frontiers in immunology",
+      "pub_date": "2022-01",
+      "doi": "10.1002/JLB.4A0720-458RR",
+      "mesh_terms": [
+        "Animals",
+        "Female",
+        "Immunity, Innate",
+        "Killer Cells, Natural",
+        "Mice",
+        "Placenta",
+        "Pregnancy",
+        "Reproduction",
+        "Vascular Endothelial Growth Factor A"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "38077315",
+      "title": "Identification of drug candidates targeting monocyte reprogramming in people living with HIV.",
+      "abstract": "INTRODUCTION: People living with HIV (PLHIV) are characterized by functional reprogramming of innate immune cells even after long-term antiretroviral therapy (ART). In order to assess technical feasibility of omics technologies for application to larger cohorts, we compared multiple omics data layers. METHODS: Bulk and single-cell transcriptomics, flow cytometry, proteomics, chromatin landscape analysis by ATAC-seq as well as  RESULTS: Single-cell RNA-seq analysis revealed that most immune cells in peripheral blood of PLHIV are altered in their transcriptomes and that a specific functional monocyte state previously described in acute HIV infection is still existing in PLHIV while other monocyte cell states are only occurring acute infection. Further, a reverse transcriptome approach on a rather small number of PLHIV was sufficient to identify drug candidates for reversing the transcriptional phenotype of monocytes in PLHIV. DISCUSSION: These scientific findings and technological advancements for clinical application of single-cell transcriptomics form the basis for the larger 2000-HIV multicenter cohort study on PLHIV, for which a combination of bulk and single-cell transcriptomics will be included as the leading technology to determine disease endotypes in PLHIV and to predict disease trajectories and outcomes.",
+      "authors": [
+        "Rainer Knoll",
+        "Lorenzo Bonaguro",
+        "J\u00e9ssica C Dos Santos",
+        "Stefanie Warnat-Herresthal",
+        "Maartje C P Jacobs-Cleophas",
+        "Edda Bl\u00fcmel",
+        "Nico Reusch",
+        "Arik Horne",
+        "Miriam Herbert",
+        "Melanie Nuesch-Germano",
+        "Twan Otten",
+        "Wouter A van der Heijden",
+        "Lisa van de Wijer",
+        "Alex K Shalek",
+        "Kristian H\u00e4ndler",
+        "Matthias Becker",
+        "Marc D Beyer",
+        "Mihai G Netea",
+        "Leo A B Joosten",
+        "Andre J A M van der Ven",
+        "Joachim L Schultze",
+        "Anna C Aschenbrenner"
+      ],
+      "journal": "Frontiers in immunology",
+      "pub_date": "2023-01",
+      "doi": "10.1093/bioinformatics/btw313",
+      "mesh_terms": [
+        "Humans",
+        "Anti-HIV Agents",
+        "Cohort Studies",
+        "HIV Infections",
+        "Monocytes",
+        "Multicenter Studies as Topic"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "35550850",
+      "title": "Trained immunity in viral infections, Alzheimer's disease and multiple sclerosis: A convergence in type I interferon signalling and IFN\u03b2-1a.",
+      "abstract": "Type I interferon (IFN-I) signalling represents a major target for modulation in a virus' bid for latency. IFN-I perturbations are also present in such as Alzheimer's disease (AD) and multiple sclerosis (MS), where viral infections are known to increase symptomatic burden. IFN-I modulation such as via IFN\u03b2-1a, an established MS treatment, has been researched to a limited extent to both AD and COVID-19. In this mini review, we present emerging research on trained immunity as a pathogenetic basis for Alzheimer's disease and the emerging context for IFN\u03b2-1a repositioning, via mechanisms shared with multiple sclerosis and induced by viral infections.",
+      "authors": [
+        "George D Vavougios",
+        "Theodore Mavridis",
+        "Artemios Artemiadis",
+        "Karen A Krogfelt",
+        "Georgios Hadjigeorgiou"
+      ],
+      "journal": "Biochimica et biophysica acta. Molecular basis of disease",
+      "pub_date": "2022-Sep",
+      "doi": "10.1016/j.bbadis.2022.166430",
+      "mesh_terms": [
+        "Alzheimer Disease",
+        "COVID-19",
+        "Humans",
+        "Interferon-beta",
+        "Multiple Sclerosis",
+        "Virus Diseases"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "34313516",
+      "title": "Repurposing of the childhood vaccines: could we train the immune system against the SARS-CoV-2.",
+      "abstract": "INTRODUCTION: The COVID-19 pandemic is a globalized health concern caused by a beta-coronavirus named Severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2). Since December 2019, when this outbreak flared in Wuhan, China, COVID-19 cases have been continuously rising all over the world. Due to the emergence of SARS-CoV-2 mutants, subsequent waves are flowing in a faster manner as compared to the primary wave, which is more contagious and causing higher mortality. Recently, India has emerged as the new epicenter of the second wave by mutants of SARS-CoV-2. After almost eighteen months of this outbreak, some COVID-19 dedicated therapeutics and vaccines are available, and a few are under trial, but the situation is still uncontrolled. AREA COVERED: This perspective article covers the repurposing of childhood vaccines like Bacille Calmette-Guerin (BCG), Measles, Mumps, Rubella (MMR), and Oral Polio Vaccine (OPV), which are live attenuated vaccines and have been shown the protective effect through 'trained immunity and 'crossreactivity.' EXPERT OPINION: This perspective article has suggested that combinatorial use of these childhood vaccines might exert a better protective effect along with the available COVID-19 therapeutic and vaccines which could be considered as a preventive option against SARS-CoV-2 infection as well as its subsequent waves.",
+      "authors": [
+        "Divakar Sharma"
+      ],
+      "journal": "Expert review of vaccines",
+      "pub_date": "2021-Sep",
+      "doi": "10.15585/mmwr.mm6912e2",
+      "mesh_terms": [
+        "BCG Vaccine",
+        "COVID-19",
+        "COVID-19 Vaccines",
+        "Cross Reactions",
+        "Diphtheria-Tetanus-Pertussis Vaccine",
+        "Drug Repositioning",
+        "Humans",
+        "Immunity, Innate",
+        "Measles-Mumps-Rubella Vaccine",
+        "Poliovirus Vaccine, Oral",
+        "SARS-CoV-2",
+        "Spike Glycoprotein, Coronavirus",
+        "Vaccination",
+        "Vaccines, Attenuated",
+        "Yellow Fever Vaccine"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "32794723",
+      "title": "Biological Rationale for the Repurposing of BCG Vaccine against SARS-CoV-2.",
+      "abstract": "The Bacillus Calmette-Guerin vaccine is still widely used in the developing world. The vaccination prevents infant death not only from tuberculosis but also from unrelated infectious agents, especially respiratory tract infections and neonatal sepsis. It is proposed that these off-target protective effects of the BCG vaccine are mediated by the general long-term boosting of innate immune mechanisms, also termed \"trained innate immunity\". Recent studies indicate that both COVID-19 incidence and total deaths are strongly associated with the presence or absence of national mandatory BCG vaccination programs and encourage the initiation of several clinical studies with the expectation that revaccination with BCG could reduce the incidence and severity of COVID-19. Here, presented results from the bioinformatics analysis of the ",
+      "authors": [
+        "Sanja Glisic",
+        "Vladimir R Perovic",
+        "Milan Sencanski",
+        "Slobodan Paessler",
+        "Veljko Veljkovic"
+      ],
+      "journal": "Journal of proteome research",
+      "pub_date": "2020-Nov",
+      "doi": "10.1021/acs.jproteome.0c00410",
+      "mesh_terms": [
+        "BCG Vaccine",
+        "Bacterial Proteins",
+        "Betacoronavirus",
+        "COVID-19",
+        "COVID-19 Vaccines",
+        "Coronavirus Infections",
+        "Drug Repositioning",
+        "Humans",
+        "Mycobacterium bovis",
+        "Pandemics",
+        "Pneumonia, Viral",
+        "Proteome",
+        "SARS-CoV-2",
+        "Viral Vaccines"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "33025261",
+      "title": "A Systems Biology Workflow for Drug and Vaccine Repurposing: Identifying Small-Molecule BCG Mimics to Reduce or Prevent COVID-19 Mortality.",
+      "abstract": "PURPOSE: Coronavirus disease 2019 (COVID-19) is expected to continue to cause worldwide fatalities until the World population develops 'herd immunity', or until a vaccine is developed and used as a prevention. Meanwhile, there is an urgent need to identify alternative means of antiviral defense. Bacillus Calmette-Gu\u00e9rin (BCG) vaccine that has been recognized for its off-target beneficial effects on the immune system can be exploited to boast immunity and protect from emerging novel viruses. METHODS: We developed and employed a systems biology workflow capable of identifying small-molecule antiviral drugs and vaccines that can boast immunity and affect a wide variety of viral disease pathways to protect from the fatal consequences of emerging viruses. RESULTS: Our analysis demonstrates that BCG vaccine affects the production and maturation of na\u00efve T cells resulting in enhanced, long-lasting trained innate immune responses that can provide protection against novel viruses. We have identified small-molecule BCG mimics, including antiviral drugs such as raltegravir and lopinavir as high confidence hits. Strikingly, our top hits emetine and lopinavir were independently validated by recent experimental findings that these compounds inhibit the growth of SARS-CoV-2 in vitro. CONCLUSIONS: Our results provide systems biology support for using BCG and small-molecule BCG mimics as putative vaccine and drug candidates against emergent viruses including SARS-CoV-2.",
+      "authors": [
+        "Rima Hajjo",
+        "Alexander Tropsha"
+      ],
+      "journal": "Pharmaceutical research",
+      "pub_date": "2020-Oct",
+      "doi": "10.1016/j.chom.2016.07.004",
+      "mesh_terms": [
+        "BCG Vaccine",
+        "Betacoronavirus",
+        "Biomimetic Materials",
+        "COVID-19",
+        "COVID-19 Vaccines",
+        "Coronavirus Infections",
+        "Drug Repositioning",
+        "Humans",
+        "Immunity, Innate",
+        "Pandemics",
+        "Pneumonia, Viral",
+        "SARS-CoV-2",
+        "Small Molecule Libraries",
+        "Systems Biology",
+        "Viral Vaccines",
+        "Workflow",
+        "COVID-19 Drug Treatment"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "34604475",
+      "title": "Associated pathogenesis of bladder cancer and SARS-CoV-2 infection: a treatment strategy.",
+      "abstract": "Coronavirus disease 19 (Covid-19) is a pandemic that affects every human on Earth. Mortality rates are greater in people with both cancer and Covid-19. In comparison, patients with non-Muscle-Invasive Bladder Cancer (NMIBC) had reduced susceptibility to moderate Covid-19 mortality. The treatment and clinical management of NMIBC are consistent with BCG-mediated intravesical adjuvant therapy as a protective function against tumors. BCG vaccination exhibits a non-specific protective role against respiratory infections. This non-specific effect of BCG is partially mediated by innate immune memory due to epigenetic changes in innate and adaptive immune system cells induced by the\u00a0microbe. This editorial suggests that regularly test repurposed drugs include anti-cancer drugs till the proper antiviral drugs or vaccines will\u00a0be developed.",
+      "authors": [
+        "Mukul Kumar Singh",
+        "Mayank Jain",
+        "Hari Shyam",
+        "Pratap Shankar",
+        "Vishwajeet Singh"
+      ],
+      "journal": "Virusdisease",
+      "pub_date": "2021-Dec",
+      "doi": "10.1007/s13337-021-00742-y",
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "33331729",
+      "title": "[Is it possible that BCG vaccine protects against COVID-19?].",
+      "abstract": "A number of clinical trials are currently underway worldwide to assess whether BCG, the old vaccine against tuberculosis, can protect against COVID-19 infection. In this Perspective, we briefly outline the background, the immunological mechanisms (in particular induction of 'innate immune memory' or 'trained immunity'), and further considerations for the potential future use of BCG against viral and other infections.",
+      "authors": [
+        "Reinout van Crevel",
+        "Jos W M van der Meer",
+        "Mihai G Netea"
+      ],
+      "journal": "Nederlands tijdschrift voor geneeskunde",
+      "pub_date": "2020-Oct",
+      "doi": null,
+      "mesh_terms": [
+        "BCG Vaccine",
+        "COVID-19",
+        "Drug Repositioning",
+        "Humans",
+        "Immunity, Innate",
+        "Immunologic Memory",
+        "SARS-CoV-2",
+        "Tuberculosis"
+      ],
+      "keywords": []
+    }
+  ],
+  "associations": [],
+  "scanned_at": "2026-03-27T00:56:29.554057"
+}

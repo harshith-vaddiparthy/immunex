@@ -1,0 +1,429 @@
+{
+  "pathway": "tlr_signaling",
+  "pathway_name": "Toll-like Receptor Signaling",
+  "query": "(\"toll-like receptor\" OR \"TLR signaling\" OR \"TLR agonist\" OR \"TLR antagonist\" OR \"MyD88\" OR \"TRIF pathway\") AND (\"drug repurposing\" OR \"drug repositioning\" OR \"off-target effect\" OR \"repurposed\") AND (innate immunity OR innate immune)",
+  "articles_found": 15,
+  "articles": [
+    {
+      "pmid": "29062592",
+      "title": "Toll-Like Receptor-4 Signaling Drives Persistent Fibroblast Activation and Prevents Fibrosis Resolution in Scleroderma.",
+      "abstract": "",
+      "authors": [
+        "Swati Bhattacharyya",
+        "Kim S Midwood",
+        "Hang Yin",
+        "John Varga"
+      ],
+      "journal": "Advances in wound care",
+      "pub_date": "2017-Oct",
+      "doi": "10.1089/wound.2017.0732",
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "36362045",
+      "title": "COVID-19 Molecular Pathophysiology: Acetylation of Repurposing Drugs.",
+      "abstract": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) induces immune-mediated type 1 interferon (IFN-1) production, the pathophysiology of which involves sterile alpha motif and histidine-aspartate domain-containing protein 1 (SAMHD1) tetramerization and the cytosolic DNA sensor cyclic-GMP-AMP synthase (cGAS)-stimulator of interferon genes (STING) signaling pathway. As a result, type I interferonopathies are exacerbated. Aspirin inhibits cGAS-mediated signaling through cGAS acetylation. Acetylation contributes to cGAS activity control and activates IFN-1 production and nuclear factor-\u03baB (NF-\u03baB) signaling via STING. Aspirin and dapsone inhibit the activation of both IFN-1 and NF-\u03baB by targeting cGAS. We define these as anticatalytic mechanisms. It is necessary to alleviate the pathologic course and take the lag time of the odds of achieving viral clearance by day 7 to coordinate innate or adaptive immune cell reactions.",
+      "authors": [
+        "Jong Hoon Lee",
+        "Badar Kanwar",
+        "Asif Khattak",
+        "Jenny Balentine",
+        "Ngoc Huy Nguyen",
+        "Richard E Kast",
+        "Chul Joong Lee",
+        "Jean Bourbeau",
+        "Eric L Altschuler",
+        "Consolato M Sergi",
+        "Tuan Ngoc Minh Nguyen",
+        "Sangsuk Oh",
+        "Mun-Gi Sohn",
+        "Michael Coleman"
+      ],
+      "journal": "International journal of molecular sciences",
+      "pub_date": "2022-Oct",
+      "doi": "10.1021/acs.jpcb.1c10718",
+      "mesh_terms": [
+        "Humans",
+        "Acetylation",
+        "NF-kappa B",
+        "Drug Repositioning",
+        "Membrane Proteins",
+        "SARS-CoV-2",
+        "Nucleotidyltransferases",
+        "Interferon Type I",
+        "Aspirin",
+        "Immunity, Innate",
+        "COVID-19 Drug Treatment"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "36140427",
+      "title": "Small Molecules as Toll-like Receptor 4 Modulators Drug and ",
+      "abstract": "The innate immunity toll-like receptor 4 (TLR4) system is a receptor of paramount importance as a therapeutic target. Virtual screening following a \"computer-aided drug repurposing\" approach was applied to the discovery of novel TLR4 modulators with a non-lipopolysaccharide-like structure. We screened almost 29,000 approved drugs and drug-like molecules from commercial, public, and ",
+      "authors": [
+        "Luc\u00eda P\u00e9rez-Regidor",
+        "Joan Guzm\u00e1n-Caldentey",
+        "Nils Oberhauser",
+        "Carmen Punz\u00f3n",
+        "Bal\u00e1zs Balogh",
+        "Jos\u00e9 R Pedro",
+        "Eva Falomir",
+        "Alessandra Nurisso",
+        "P\u00e9ter M\u00e1tyus",
+        "J Carlos Men\u00e9ndez",
+        "Bel\u00e9n de Andr\u00e9s",
+        "Manuel Fresno",
+        "Sonsoles Mart\u00edn-Santamar\u00eda"
+      ],
+      "journal": "Biomedicines",
+      "pub_date": "2022-Sep",
+      "doi": "10.1002/ijc.33804",
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "36108390",
+      "title": "Repurposing drugs to inhibit innate immune responses associated with TLR4, IL1, and NLRP3 signaling in joint cells.",
+      "abstract": "Osteoarthritis (OA) affects more than 300 million people worldwide and it is about to become the first disabling disease. OA is characterized by the progressive degradation of the articular cartilage but is a disease of the whole joint. Articular innate immune responses (IIR) associated with tissue degradation contribute to its progression. However, no treatment is available to block these IIRs. Through data text mining and computational pharmacology, we identified two clinical available drugs, naloxone, and thalidomide, with potential inhibitory properties on toll-like receptor 4 (TLR4), a major activator of these IIR. Proteome analysis confirmed that activation of this receptor or the IL1 receptor generated OA-like and gout-like proteomic changes in human primary chondrocytes. Both compounds were found to block TLR4 complex and inhibit TLR4 and IL1R-mediated IIR in OA chondrocytes, osteoblasts, and synoviocytes. Furthermore, naloxone and thalidomide inhibitory effects involved the downregulation of the NLRP3 inflammasome pathway, which is downstream of TLR4/IL1R signaling. We demonstrated that these compounds, within a therapeutic range of concentrations, exhibited anti-inflammatory and anti-catabolic properties in joint primary OA cells without any toxic effect. This data underpins naloxone & thalidomide repurpose to treat OA-associated inflammatory responses.",
+      "authors": [
+        "Eloi Franco-Trepat",
+        "Mar\u00eda Guill\u00e1n-Fresco",
+        "Ana Alonso-P\u00e9rez",
+        "Miriam L\u00f3pez-Fag\u00fandez",
+        "Andr\u00e9s Pazos-P\u00e9rez",
+        "Antia Crespo-Golmar",
+        "Oreste Gualillo",
+        "Alberto Jorge-Mora",
+        "Susana Bel\u00e9n Bravo",
+        "Rodolfo G\u00f3mez"
+      ],
+      "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+      "pub_date": "2022-Nov",
+      "doi": "10.1016/j.biopha.2022.113671",
+      "mesh_terms": [
+        "Humans",
+        "Chondrocytes",
+        "Drug Repositioning",
+        "Immunity, Innate",
+        "Inflammasomes",
+        "Naloxone",
+        "NLR Family, Pyrin Domain-Containing 3 Protein",
+        "Osteoarthritis",
+        "Proteome",
+        "Proteomics",
+        "Receptors, Interleukin-1",
+        "Thalidomide",
+        "Toll-Like Receptor 4",
+        "Interleukin-1"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "25411377",
+      "title": "Repurposed transcriptomic data facilitate discovery of innate immunity toll-like receptor (TLR) Genes across Lophotrochozoa.",
+      "abstract": "The growing volume of genomic data from across life represents opportunities for deriving valuable biological information from data that were initially collected for another purpose. Here, we use transcriptomes collected for phylogenomic studies to search for toll-like receptor (TLR) genes in poorly sampled lophotrochozoan clades (Annelida, Mollusca, Brachiopoda, Phoronida, and Entoprocta) and one ecdysozoan clade (Priapulida). TLR genes are involved in innate immunity across animals by recognizing potential microbial infection. They have an extracellular leucine-rich repeat (LRR) domain connected to a transmembrane domain and an intracellular toll/interleukin-1 receptor (TIR) domain. Consequently, these genes are important in initiating a signaling pathway to trigger defense. We found at least one TLR ortholog in all but two taxa examined, suggesting that a broad array of lophotrochozoans may have innate immune systems similar to those observed in vertebrates and arthropods. Comparison to the SMART database confirmed the presence of both the LRR and the TIR protein motifs characteristic of TLR genes. Because we looked at only one transcriptome per species, discovery of TLR genes was limited for most taxa. However, several TRL-like genes that vary in the number and placement of LRR domains were found in phoronids. Additionally, several contigs contained LRR domains but lacked TIR domains, suggesting they were not TLRs. Many of these LRR-containing contigs had other domains (e.g., immunoglobin) and are likely involved in innate immunity.",
+      "authors": [
+        "Kenneth M Halanych",
+        "Kevin M Kocot"
+      ],
+      "journal": "The Biological bulletin",
+      "pub_date": "2014-Oct",
+      "doi": "10.1086/BBLv227n2p201",
+      "mesh_terms": [
+        "Animals",
+        "Immunity, Innate",
+        "Invertebrates",
+        "Statistics as Topic",
+        "Toll-Like Receptors",
+        "Transcriptome"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "23568774",
+      "title": "Rifampin inhibits Toll-like receptor 4 signaling by targeting myeloid differentiation protein 2 and attenuates neuropathic pain.",
+      "abstract": "Rifampin has been used for the treatment of bacterial infections for many years. Clinically, rifampin has been found to possess immunomodulatory effects. However, the molecular target responsible for the immunosuppressive effects of rifampin is not known. Herein, we show that rifampin binds to myeloid differentiation protein 2 (MD-2), the key coreceptor for innate immune TLR4. Rifampin blocked TLR4 signaling induced by LPS, including NF-\u03baB activation and the overproduction of proinflammatory mediators nitric oxide, interleukin 1\u03b2, and tumor necrosis factor \u03b1 in mouse microglia BV-2 cells and macrophage RAW 264.7 cells. Rifampin's inhibition of TLR4 signaling was also observed in immunocompetent rat primary macrophage, microglia, and astrocytes. Further, we show that rifampin (75 or 100 mg/kg b.i.d. for 3 d, intraperitoneal) suppressed allodynia induced by chronic constriction injury of the sciatic nerve and suppressed nerve injury-induced activation of microglia. Our findings indicate that MD-2 is a important target of rifampin in its inhibition of innate immune function and contributes to its clinically observed immune-suppressive effect. The results also suggest that rifampin may be repositioned as an agent for the treatment of neuropathic pain.",
+      "authors": [
+        "Xiaohui Wang",
+        "Peter M Grace",
+        "Michael N Pham",
+        "Kui Cheng",
+        "Keith A Strand",
+        "Christina Smith",
+        "Jing Li",
+        "Linda R Watkins",
+        "Hang Yin"
+      ],
+      "journal": "FASEB journal : official publication of the Federation of American Societies for Experimental Biology",
+      "pub_date": "2013-Jul",
+      "doi": "10.1096/fj.12-222992",
+      "mesh_terms": [
+        "Animals",
+        "Animals, Newborn",
+        "Blotting, Western",
+        "Cell Line",
+        "Cells, Cultured",
+        "Dose-Response Relationship, Drug",
+        "HEK293 Cells",
+        "Humans",
+        "Hyperalgesia",
+        "Interleukin-1beta",
+        "Lymphocyte Antigen 96",
+        "Macrophages",
+        "Male",
+        "Mice",
+        "Microglia",
+        "NF-kappa B",
+        "Neuralgia",
+        "Nitric Oxide",
+        "Protein Binding",
+        "Rats",
+        "Rats, Sprague-Dawley",
+        "Rifampin",
+        "Signal Transduction",
+        "Toll-Like Receptor 4",
+        "Tumor Necrosis Factor-alpha"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "34643941",
+      "title": "Amitriptyline blocks innate immune responses mediated by toll-like receptor 4 and IL-1 receptor: Preclinical and clinical evidence in osteoarthritis and gout.",
+      "abstract": "BACKGROUND AND PURPOSE: Osteoarthritis, a major cause of disability in developed countries does not have effective treatment. Activation of TLR4 and innate immune response factors contribute to osteoarthritis progressive cartilage degradation. There are no clinically available TLR4 inhibitors. Interestingly, the antidepressant amitriptyline could block this receptor. Thus, we evaluated amitriptyline anti-TLR4 effects on human osteoarthritis chondrocytes in order to repurpose it as an inhibitor of innate immune response in joint inflammatory pathologies. EXPERIMENTAL APPROACH: Using in silico docking analysis, RT-PCR, siRNA, elisa, proteomics and clinical data mining of drug consumption, we explored the clinical relevance of amitriptyline blockade of TLR4-mediated innate immune responses in human osteoarthritis chondrocytes. KEY RESULTS: Amitriptyline bound TLR4 but not IL-1 receptor. Interestingly, amitriptyline binding to TLR4 inhibited TLR4- and IL-1 receptor-mediated innate immune responses in human osteoarthritis chondrocytes, synoviocytes and osteoblasts cells. Amitriptyline reduced basal innate immune responses and promoted anabolic effects in human osteoarthritis chondrocytes. Supporting its anti-innate immune response effects, amitriptyline down-regulated basal and induced expression of NLRP3, an inflammasome member from IL-1 receptor signalling linked to osteoarthritis and gout pathologies. Accordingly, mining of dissociated and aggregated drug consumption data from 107,172 elderly patients (>65\u2009years) revealed that amitriptyline consumption was significantly associated with lower colchicine consumption associated with inflammatory gout flare treatment. CONCLUSION AND IMPLICATIONS: Amitriptyline blocks TLR4-, IL-1 receptor and NLRP3-dependent innate immune responses. This together with clinical data amitriptyline could be repurposed for systemic or local innate immune response management in diverse joint inflammatory pathologies.",
+      "authors": [
+        "Eloi Franco-Trepat",
+        "Ana Alonso-P\u00e9rez",
+        "Mar\u00eda Guill\u00e1n-Fresco",
+        "Alberto Jorge-Mora",
+        "Antia Crespo-Golmar",
+        "Miriam L\u00f3pez-Fag\u00fandez",
+        "Andr\u00e9s Pazos-P\u00e9rez",
+        "Oreste Gualillo",
+        "Susana Bel\u00e9n Bravo",
+        "Rodolfo G\u00f3mez Bahamonde"
+      ],
+      "journal": "British journal of pharmacology",
+      "pub_date": "2022-Jan",
+      "doi": "10.3389/fimmu.2020.585146",
+      "mesh_terms": [
+        "Aged",
+        "Amitriptyline",
+        "Chondrocytes",
+        "Gout",
+        "Humans",
+        "Immunity, Innate",
+        "NLR Family, Pyrin Domain-Containing 3 Protein",
+        "Osteoarthritis",
+        "Receptors, Interleukin-1",
+        "Symptom Flare Up",
+        "Toll-Like Receptor 4"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "33609410",
+      "title": "Repurposing of thalidomide and its derivatives for the treatment of SARS-coV-2 infections: Hints on molecular action.",
+      "abstract": "AIMS: The SARS-coV-2 pandemic continues to cause an unprecedented global destabilization requiring urgent attention towards drug and vaccine development. Thalidomide, a drug with known anti-inflammatory and immunomodulatory effects has been indicated to be effective in treating a SARS-coV-2 pneumonia patient. Here, we study the possible mechanisms through which thalidomide might affect coronavirus disease-19 (COVID-19). METHODS: The present study explores the possibility of repurposing thalidomide for the treatment of SARS-coV-2 pneumonia by reanalysing transcriptomes of SARS-coV-2 infected tissues with thalidomide and lenalidomide induced transcriptomic changes in transformed lung and haematopoietic models as procured from databases, and further comparing them with the transcriptome of primary endothelial cells. RESULTS: Thalidomide and lenalidomide exhibited pleiotropic effects affecting a range of biological processes including inflammation, immune response, angiogenesis, MAPK signalling, NOD-like receptor signalling, Toll-like receptor signalling, leucocyte differentiation and innate immunity, the processes that are aberrantly regulated in severe COVID-19 patients. CONCLUSION: The present study indicates thalidomide analogues as a better fit for treating severe cases of novel viral infections, healing the damaged network by compensating the impairment caused by the COVID-19.",
+      "authors": [
+        "Lakshmikirupa Sundaresan",
+        "Suvendu Giri",
+        "Himanshi Singh",
+        "Suvro Chatterjee"
+      ],
+      "journal": "British journal of clinical pharmacology",
+      "pub_date": "2021-Oct",
+      "doi": "10.3324/haematol.2009.005835",
+      "mesh_terms": [
+        "COVID-19",
+        "Drug Repositioning",
+        "Endothelial Cells",
+        "Humans",
+        "SARS-CoV-2",
+        "Thalidomide"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "37201408",
+      "title": "Differential effects of dexmedetomidine on Gram-positive and Gram-negative bacterial killing and phagocytosis.",
+      "abstract": "Dexmedetomidine is a commonly used sedative in perioperative and intensive care settings with purported immunomodulatory properties. Since its effects on immune functions against infections have not been extensively studied, we tested the effects of dexmedetomidine on Gram-positive [Staphylococcus aureus and Enterococcus faecalis] and Gram-negative bacteria [Escherichia coli], and on effector functions of human monocytes THP-1 cells against them. We evaluated phagocytosis, reactive oxygen species (ROS) formation, and CD11b activation, and performed RNA sequencing analyses. Our study revealed that dexmedetomidine improved Gram-positive but mitigated Gram-negative bacterial phagocytosis and killing in THP-1 cells. The attenuation of Toll-like receptor 4 (TLR4) signaling by dexmedetomidine was previously reported. Thus, we tested TLR4 inhibitor TAK242. Similar to dexmedetomidine, TAK242 reduced E. coli phagocytosis but enhanced CD11b activation. The reduced TLR4 response potentially increases CD11b activation and ROS generation and subsequently enhances Gram-positive bacterial killing. Conversely, dexmedetomidine may inhibit the TLR4-signaling pathway and mitigate the alternative phagocytosis pathway induced by TLR4 activation through LPS-mediated Gram-negative bacteria, resulting in worsened bacterial loads. We also examined another \u03b12 adrenergic agonist, xylazine. Because xylazine did not affect bacterial clearance, we proposed that dexmedetomidine may have an off-target effect on bacterial killing process, potentially involving crosstalk between CD11b and TLR4. Despite its potential to attenuate inflammation, we provide a novel insight into potential risks of dexmedetomidine use during Gram-negative infections, highlighting the differential effect of dexmedetomidine on Gram-positive and Gram-negative bacteria.",
+      "authors": [
+        "Wiriya Maisat",
+        "Xiaohui Han",
+        "Sophia Koutsogiannaki",
+        "Sulpicio G Soriano",
+        "Koichi Yuki"
+      ],
+      "journal": "International immunopharmacology",
+      "pub_date": "2023-Jul",
+      "doi": "10.1038/ni0810-691",
+      "mesh_terms": [
+        "Humans",
+        "Toll-Like Receptor 4",
+        "Dexmedetomidine",
+        "Escherichia coli",
+        "Anti-Bacterial Agents",
+        "Reactive Oxygen Species",
+        "Xylazine",
+        "Gram-Negative Bacteria",
+        "Gram-Positive Bacteria",
+        "Phagocytosis",
+        "Sulfonamides"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "32612613",
+      "title": "Activation of TLR7 and Innate Immunity as an Efficient Method Against COVID-19 Pandemic: Imiquimod as a Potential Therapy.",
+      "abstract": "",
+      "authors": [
+        "Konstantinos Poulas",
+        "Konstantinos Farsalinos",
+        "Charilaos Zanidis"
+      ],
+      "journal": "Frontiers in immunology",
+      "pub_date": "2020-01",
+      "doi": "10.1097/AOG.0b013e31825bc6e8",
+      "mesh_terms": [
+        "Adjuvants, Immunologic",
+        "Betacoronavirus",
+        "COVID-19",
+        "Coronavirus Infections",
+        "Drug Repositioning",
+        "Humans",
+        "Imiquimod",
+        "Immunity, Innate",
+        "Pandemics",
+        "Pneumonia, Viral",
+        "SARS-CoV-2",
+        "Toll-Like Receptor 7",
+        "COVID-19 Drug Treatment"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "34805481",
+      "title": "Discovery of new TLR7 agonists by a combination of statistical learning-based QSAR, virtual screening, and molecular dynamics.",
+      "abstract": "Search for new antiviral medications has surged in the past two years due to the COVID-19 crisis. Toll-like receptor 7 (TLR7) is among one of the most important TLR proteins of innate immunity that is responsible for broad antiviral response and immune system control. TLR7 agonists, as both vaccine adjuvants and immune response modulators, are among the top drug candidates for not only our contemporary viral pandemic but also other diseases. The agonists of TLR7 have been utilized as vaccine adjuvants and antiviral agents. In this study, we hybridized a statistical learning-based QSAR model with molecular docking and molecular dynamics simulation to extract new antiviral drugs by drug repurposing of the DrugBank database. First, we manually curated a dataset consisting of TLR7 agonists. The molecular descriptors of these compounds were extracted, and feature engineering was done to restrict the number of features to 45. We applied a statistically inspired modification of the partial least squares (SIMPLS) method to build our QSAR model. In the next stage, the DrugBank database was virtually screened structurally using molecular docking, and the top compounds for the guanosine binding site of TLR were identified. The result of molecular docking was again screened by the ligand-based approach of QSAR to eliminate compounds that do not display strong EC",
+      "authors": [
+        "Ardavan Abiri",
+        "Masoud Rezaei",
+        "Mohammad Hossein Zeighami",
+        "Younes Vaezpour",
+        "Leili Dehghan",
+        "Maedeh KhorramGhahfarokhi"
+      ],
+      "journal": "Informatics in medicine unlocked",
+      "pub_date": "2021-01",
+      "doi": "10.23750/abm.v90i3-S.8167",
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "34279044",
+      "title": "Genomic Insights into Myasthenia Gravis Identify Distinct Immunological Mechanisms in Early and Late Onset Disease.",
+      "abstract": "OBJECTIVE: The purpose of this study was to identify disease relevant genes and explore underlying immunological mechanisms that contribute to early and late onset forms of myasthenia gravis. METHODS: We used a novel genomic methodology to integrate genomewide association study (GWAS) findings in myasthenia gravis with cell-type specific information, such as gene expression patterns and promotor-enhancer interactions, in order to identify disease-relevant genes. Subsequently, we conducted additional genomic investigations, including an expression quantitative analysis of 313 healthy people to provide mechanistic insights. RESULTS: We identified several genes that were specifically linked to early onset myasthenia gravis including TNIP1, ORMDL3, GSDMB, and TRAF3. We showed that regulators of toll-like receptor 4 signaling were enriched among these early onset disease genes (fold enrichment\u00a0=\u00a03.85, p\u00a0=\u00a06.4\u2009\u00d7\u200910 INTERPRETATION: The disease-relevant genes identified in this study are a unique resource for many disciplines, including clinicians, scientists, and the pharmaceutical industry. The distinct immunological pathways linked to early and late onset myasthenia gravis carry important implications for drug repurposing opportunities and for future studies of drug development. ANN NEUROL 2021;90:455-463.",
+      "authors": [
+        "Lahiru Handunnetthi",
+        "Bogdan Knezevic",
+        "Silva Kasela",
+        "Katie L Burnham",
+        "Lili Milani",
+        "Sarosh R Irani",
+        "Hai Fang",
+        "Julian C Knight"
+      ],
+      "journal": "Annals of neurology",
+      "pub_date": "2021-Sep",
+      "doi": "10.1002/ana.26169",
+      "mesh_terms": [
+        "Adult",
+        "Age of Onset",
+        "Female",
+        "Genetic Variation",
+        "Genome-Wide Association Study",
+        "Humans",
+        "Immunity, Innate",
+        "Male",
+        "Middle Aged",
+        "Myasthenia Gravis",
+        "Polymorphism, Single Nucleotide"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "39891776",
+      "title": "Normalization of tumor vasculature by imiquimod: proposal for a new anticancer therapeutic indication for a TLR7 agonist.",
+      "abstract": "Imiquimod (IMQ), a drug from aminoquinoline group, is the toll-like receptor 7 (TLR7) agonist. It acts as an immunostimulant and radio-sensitizing agent. IMQ stimulates both innate and adaptive immune response. Despite studies conducted, there are no unambiguous data showing how IMQ affects the condition of tumor blood vessels. Tumor vasculature plays the main role in tumor progression. Formation of abnormal blood vessels increases area of hypoxia which recruits suppressor cells, blocks tumor infiltration by CD8",
+      "authors": [
+        "Jarosz-Biej Magdalena",
+        "Czapla Justyna",
+        "Ciep\u0142a Joanna",
+        "Smolarczyk Ryszard",
+        "Drzyzga Alina",
+        "Sprus-Lipka Dorota",
+        "Pilny Ewelina",
+        "Matuszczak Sybilla",
+        "Cicho\u0144 Tomasz"
+      ],
+      "journal": "Cancer immunology, immunotherapy : CII",
+      "pub_date": "2025-Feb",
+      "doi": "10.18632/oncotarget.15326",
+      "mesh_terms": [
+        "Imiquimod",
+        "Animals",
+        "Toll-Like Receptor 7",
+        "Mice",
+        "Neovascularization, Pathologic",
+        "Mice, Inbred C57BL",
+        "Humans",
+        "Antineoplastic Agents",
+        "Female",
+        "Aminoquinolines",
+        "Melanoma, Experimental",
+        "Cell Line, Tumor",
+        "Membrane Glycoproteins"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "32123832",
+      "title": "Identification of hepatic NPC1L1 as an NAFLD risk factor evidenced by ezetimibe-mediated steatosis prevention and recovery.",
+      "abstract": "Non-alcoholic fatty liver disease (NAFLD) is a serious global public health concern. Nevertheless, there are no specific medications for treating the associated abnormal accumulation of hepatic lipids such as cholesterol and triglycerides. While seminal findings suggest a link between hepatic cholesterol accumulation and NAFLD progression, the molecular bases of these associations are not well understood. Here, we experimentally demonstrate that hepatic Niemann-Pick C1-Like 1 (NPC1L1), a cholesterol re-absorber from bile to the liver, can cause steatosis, an early stage of NAFLD using genetically engineered L1-Tg mice characterized by hepatic expression of NPC1L1 under the control of ApoE promoter. Contrary to wild-type mice that have little expression of hepatic Npc1l1, the livers of L1-Tg mice fed a high-fat diet became steatotic within only a few weeks. Moreover, hepatic NPC1L1-mediated steatosis was not only prevented, but completely rescued, by orally administered ezetimibe, a well-used lipid-lowering drug on the global market, even under high-fat diet feedings. These results indicate that hepatic NPC1L1 is an NAFLD-exacerbating factor amendable to therapeutic intervention and would extend our understanding of the vital role of cholesterol uptake from bile in the development of NAFLD. Furthermore, administration of a TLR4 inhibitor also prevented the hepatic NPC1L1-mediated steatosis formation, suggesting a latent link between physiological roles of hepatic NPC1L1 and regulation of innate immune system. Our results revealed that hepatic NPC1L1 is a novel NAFLD risk factor contributing to steatosis formation that is rescued by ezetimibe; additionally, our findings uncover feasible opportunities for repositioning drugs to treat NAFLD in the near future.",
+      "authors": [
+        "Yu Toyoda",
+        "Tappei Takada",
+        "Masakazu Umezawa",
+        "Fumiya Tomura",
+        "Yoshihide Yamanashi",
+        "Ken Takeda",
+        "Hiroshi Suzuki"
+      ],
+      "journal": "FASEB bioAdvances",
+      "pub_date": "2019-May",
+      "doi": "10.1096/fba.2018-00044",
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "41783245",
+      "title": "Experimental adaptation of pigeon rotavirus A (pRVA) in human colorectal cancer cells reveals interferon-driven host responses and immune checkpoint modulation.",
+      "abstract": "Oncolytic viruses selectively target cancer cells, which is beneficial for combination therapy with immune checkpoint-targeted therapies or for direct oncolysis. Among the increasing number of cancer cases, colorectal cancer (CRC) is one of the leading causes of death. Many studies have shown that mammalian-origin rotavirus can be repurposed as an oncolytic virus for CRC. Rotaviruses can evade inflammatory immune responses upon infection and exhibit specificity for cancer cells, a highly suitable characteristic for oncolytic viruses. In this study, we aim to explore the experimental infection of pigeon rotavirus A (pRVA), an infectious disease that causes young pigeon disease syndrome (YPDS) in pigeons. Here, we report the first case of an avian-origin rotavirus as an oncolytic virus against colorectal cancer cells, HT29 and Caco2. The pRVA showed higher infectivity and selectivity in HT29\u00a0cells than in Caco2 cells, with evident cytopathic effects, including apoptosis. The mRNA expression revealed that pRVA activates the interferon-mediated pathway while regulating NF-\u03baB signaling, allowing prolonged detection of viral RNA and oncolysis. Induction of immune checkpoints upon pRVA infection enables the infected cell to evade immune recognition, thereby promoting delayed viral RNA clearance while enhancing oncolysis. The pRVA infection selectively modulates toll-like receptor (TLRs), viral RNA-sensing endosomal TLRs, suggesting coordinated innate immune sensing and immune checkpoint regulation. Inflammatory cytokines, including IL-6sR, IP-10, MIP-1\u03b3, and RANTES, were inhibited after infection, suggesting a unique immune evasion by the rotavirus. This immune modulation may facilitate sustained viral RNA presence and support the potential utility of pRVA as an oncolytic virus.",
+      "authors": [
+        "Brian Harvey Avance\u00f1a Villanueva",
+        "Jun-Bi Zhang",
+        "Jen-Pin Chuang",
+        "Kuo-Pin Chuang"
+      ],
+      "journal": "New microbes and new infections",
+      "pub_date": "2026-Apr",
+      "doi": "10.1128/jvi.01874-15",
+      "mesh_terms": [],
+      "keywords": []
+    }
+  ],
+  "associations": [],
+  "scanned_at": "2026-03-27T00:56:22.422354"
+}

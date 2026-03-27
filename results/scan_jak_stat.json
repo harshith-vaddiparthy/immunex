@@ -1,0 +1,100 @@
+{
+  "pathway": "jak_stat",
+  "pathway_name": "JAK-STAT Pathway",
+  "query": "(\"JAK-STAT signaling\" OR \"JAK inhibitor\" OR \"cytokine signaling\" OR \"interferon signaling JAK\") AND (\"drug repurposing\" OR \"drug repositioning\" OR \"off-target effect\" OR \"repurposed\") AND (innate immunity OR innate immune)",
+  "articles_found": 3,
+  "articles": [
+    {
+      "pmid": "34960648",
+      "title": "JAK-STAT Pathway: A Novel Target to Tackle Viral Infections.",
+      "abstract": "Modulation of the antiviral innate immune response has been proposed as a putative cellular target for the development of novel pan-viral therapeutic strategies. The Janus kinase-signal transducer and activator of transcription (JAK-STAT) pathway is especially relevant due to its essential role in the regulation of local and systemic inflammation in response to viral infections, being, therefore, a putative therapeutic target. Here, we review the extraordinary diversity of strategies that viruses have evolved to interfere with JAK-STAT signaling, stressing the relevance of this pathway as a putative antiviral target. Moreover, due to the recent remarkable progress on the development of novel JAK inhibitors (JAKi), the current knowledge on its efficacy against distinct viral infections is also discussed. JAKi have a proven efficacy against a broad spectrum of disorders and exhibit safety profiles comparable to biologics, therefore representing good candidates for drug repurposing strategies, including viral infections.",
+      "authors": [
+        "Ifeanyi Jude Ezeonwumelu",
+        "Edurne Garcia-Vidal",
+        "Ester Ballana"
+      ],
+      "journal": "Viruses",
+      "pub_date": "2021-Nov",
+      "doi": "10.1016/j.str.2015.12.015",
+      "mesh_terms": [
+        "Antiviral Agents",
+        "Humans",
+        "Immunity, Innate",
+        "Inflammation",
+        "Janus Kinase Inhibitors",
+        "Janus Kinases",
+        "STAT Transcription Factors",
+        "Signal Transduction",
+        "Virus Diseases",
+        "Viruses"
+      ],
+      "keywords": []
+    },
+    {
+      "pmid": "38895380",
+      "title": "TYK2 as a novel therapeutic target in Alzheimer's Disease with TDP-43 inclusions.",
+      "abstract": "Neuroinflammation is a pathological feature of many neurodegenerative diseases, including Alzheimer's disease (AD)",
+      "authors": [
+        "Laura E K\u00f6nig",
+        "Steve Rodriguez",
+        "Clemens Hug",
+        "Shayda Daneshvari",
+        "Alexander Chung",
+        "Gary A Bradshaw",
+        "Asli Sahin",
+        "George Zhou",
+        "Robyn J Eisert",
+        "Federica Piccioni",
+        "Sudeshna Das",
+        "Marian Kalocsay",
+        "Artem Sokolov",
+        "Peter Sorger",
+        "David E Root",
+        "Mark W Albers"
+      ],
+      "journal": "bioRxiv : the preprint server for biology",
+      "pub_date": "2024-Jun",
+      "doi": "10.1101/2023.01.23.525202",
+      "mesh_terms": [],
+      "keywords": []
+    },
+    {
+      "pmid": "36040684",
+      "title": "The inflammatory signature in monocytes of Sj\u00f6gren's syndrome and systemic lupus erythematosus, revealed by the integrated Reactome and drug target analysis.",
+      "abstract": "BACKGROUND: The innate immune regulation, especially by the\u00a0type I IFN signature in the CD14+\u2009monocytes, is known to be critical in the pathogenesis of autoimmune Sj\u00f6gren's syndrome (SjS) and systemic lupus erythematosus (SLE). OBJECTIVE: Since patients with one condition can be overlapped with another, this study is to identify shared differentially expressed genes (DEGs) in SjS and SLE compared to healthy controls (HCs) and refine transcriptomic profiles with the integrated Reactome and gene-drug network analysis for an anti-inflammation therapy. METHODS: CD14+\u2009monocytes were purified from whole blood of SjS and SLE patients (females, ages from 32 to 62) and subject to bulk RNA-sequencing, followed by data analyses for comparison with HC monocytes (females, ages 30 and 33). Functional categorizations, using Gene Ontology (GO) and the Reactome pathway analysis, were performed and DEGs associated with therapeutic drugs were identified from the Drug Repurposing Hub (DHUB) database. RESULTS: The GO analysis revealed that DEGs in the inflammatory response and the cellular response to cytokine were highly enriched in both conditions. A propensity toward M1 macrophage differentiation appears to be prominent in SjS while the Response to Virus was significant in SLE monocytes. Through the Reactome pathway analysis, DEGs in the IFN signaling and the cytokine signaling in immune system were most significantly enriched in both. Upregulation of NGF-induced transcription activity in SjS and the complement cascade activity in SLE were also noted. Multiple anti-inflammatory drugs, such as prostaglandin-endoperoxide synthase and angiotensin-I-converting- enzyme were associated with the DEGs in these conditions. CONCLUSIONS: Taken together, our analysis indicates distinct inflammatory transcriptomic profiles shared in SjS and SLE monocytes. Comprehensive characterizations of the data from these conditions will ultimately allow differential diagnosis of each condition and identification of therapeutic targets.",
+      "authors": [
+        "Kyung Eun Lee",
+        "Seyoung Mun",
+        "Song-Mi Kim",
+        "Wonseok Shin",
+        "Won Jung",
+        "Joon Paek",
+        "Jungnam Lee",
+        "Erin Hudson",
+        "Wesley H Reeves",
+        "Kyudong Han",
+        "Seunghee Cha"
+      ],
+      "journal": "Genes & genomics",
+      "pub_date": "2022-Oct",
+      "doi": "10.1007/s13258-022-01308-y",
+      "mesh_terms": [
+        "Adult",
+        "Angiotensins",
+        "Cytokines",
+        "Female",
+        "Humans",
+        "Lupus Erythematosus, Systemic",
+        "Middle Aged",
+        "Monocytes",
+        "Nerve Growth Factor",
+        "Prostaglandin-Endoperoxide Synthases",
+        "RNA",
+        "Sjogren's Syndrome"
+      ],
+      "keywords": []
+    }
+  ],
+  "associations": [],
+  "scanned_at": "2026-03-27T00:56:27.838780"
+}
