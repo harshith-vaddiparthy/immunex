@@ -1,108 +1,110 @@
+<div align="center">
+
 # IMMUNEX
 
 **Autonomous Multi-Agent AI System for Drug Repurposing in Innate Immunity**
 
-IMMUNEX identifies existing approved drugs that can be repurposed as innate immune modulators. It continuously scans biomedical literature, molecular databases, and clinical evidence to generate ranked repurposing hypotheses with full mechanistic explanations.
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Encode Fellowship](https://img.shields.io/badge/Encode-AI%20for%20Science-purple.svg)](https://encode.pillar.vc)
 
-> 90% of drugs fail clinical trials. Meanwhile, 35% of FDA-designated "transformative" drugs are repurposed products. IMMUNEX makes drug repurposing systematic instead of serendipitous.
+[Architecture](docs/ARCHITECTURE.md) | [API Docs](#api) | [Data Sources](#data-sources) | [Landing Page](https://harshith.com/immunex)
 
-## Why Innate Immunity?
+</div>
 
-The adaptive immune system gave us vaccines and checkpoint inhibitors. The innate immune system - our first line of defense against infection, inflammation, and chronic disease - remains an underexplored therapeutic frontier. Hundreds of approved drugs have documented but unstudied effects on innate immune pathways (toll-like receptors, inflammasomes, trained immunity, interferon signaling). IMMUNEX finds them.
+---
 
-## Architecture
+90% of drugs fail clinical trials. Meanwhile, **35% of FDA-designated "transformative" drugs are repurposed products**. The innate immune system - our first line of defense against infection, inflammation, and chronic disease - remains massively underexplored therapeutically. Hundreds of approved drugs have documented but unstudied effects on innate immune pathways.
 
-IMMUNEX is not a single model. It's an orchestrated system of five specialized AI agents:
+**IMMUNEX makes drug repurposing systematic instead of serendipitous.**
+
+It continuously scans biomedical literature, molecular databases, and clinical evidence through five specialized AI agents to produce ranked, evidence-graded repurposing hypotheses for innate immune modulation.
+
+## How It Works
+
+IMMUNEX orchestrates five specialized agents in a pipeline:
+
+| # | Agent | What It Does | Status |
+|---|-------|-------------|--------|
+| 1 | **Literature Scanner** | Mines PubMed (36M+ articles) for drug-innate immunity associations using LLM-powered NLP | ✅ Operational |
+| 2 | **Molecular Reasoner** | GNN predicts drug-target binding for innate immune targets (NLRP3, STING, TLR4, etc.) | 🔄 Training |
+| 3 | **Knowledge Graph** | Builds heterogeneous biomedical graph from 9 data sources; link prediction via TransE/RotatE | ✅ Operational |
+| 4 | **Hypothesis Generator** | LLM-based evidence synthesis into ranked hypotheses with confidence tiers | ✅ Operational |
+| 5 | **Safety Validator** | Checks candidates against FDA FAERS (20M+ adverse event reports) and drug interactions | ✅ Operational |
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│                    IMMUNEX Pipeline                      │
-│                                                         │
-│  ┌──────────────┐   ┌──────────────┐   ┌────────────┐  │
-│  │  Literature   │   │  Molecular   │   │ Knowledge  │  │
-│  │   Scanner     │   │  Reasoner    │   │   Graph    │  │
-│  │              │   │              │   │  Builder   │  │
-│  │  PubMed +    │   │  GNN-based   │   │            │  │
-│  │  bioRxiv     │   │  drug-target │   │ Heterogen. │  │
-│  │  extraction  │   │  prediction  │   │ biomedical │  │
-│  └──────┬───────┘   └──────┬───────┘   └─────┬──────┘  │
-│         │                  │                  │         │
-│         └──────────┬───────┴──────────────────┘         │
-│                    │                                    │
-│         ┌──────────▼──────────┐                         │
-│         │    Hypothesis       │                         │
-│         │    Generator        │                         │
-│         │                    │                         │
-│         │  LLM reasoning +   │                         │
-│         │  evidence synthesis │                         │
-│         └──────────┬──────────┘                         │
-│                    │                                    │
-│         ┌──────────▼──────────┐                         │
-│         │     Safety          │                         │
-│         │     Validator       │                         │
-│         │                    │                         │
-│         │  FAERS + drug      │                         │
-│         │  interactions      │                         │
-│         └─────────────────────┘                         │
-│                    │                                    │
-│                    ▼                                    │
-│         Ranked Repurposing Candidates                   │
-│         + Mechanistic Hypotheses                        │
-└─────────────────────────────────────────────────────────┘
+PubMed/bioRxiv ──→ Literature Scanner ──┐
+                                        │
+ChEMBL/BindingDB ──→ Molecular Reasoner ──→ Hypothesis Generator ──→ Safety Validator ──→ Ranked Candidates
+                                        │
+DrugBank/Reactome ──→ Knowledge Graph ──┘
 ```
 
-### Agent 1: Literature Scanner
-Continuously ingests PubMed (36M+ articles) and bioRxiv preprints. Extracts structured drug-pathway-effect triples for innate immune pathways using LLM-powered NLP. Outputs confidence-scored associations with source citations.
+## Current Results
 
-### Agent 2: Molecular Reasoner
-Graph neural network trained on drug-target interaction data from ChEMBL (2.4M compounds) and BindingDB. Predicts binding affinity between drugs and innate immune targets (NLRP3, STING, cGAS, TLR4, etc.). Performs off-target analysis to flag unexpected innate immune effects.
+The system has already processed real biomedical data:
 
-### Agent 3: Knowledge Graph Builder
-Constructs a heterogeneous biomedical knowledge graph linking drugs, targets, pathways, diseases, and clinical outcomes. Uses knowledge graph embeddings (TransE/RotatE) for link prediction to identify undocumented drug-pathway associations.
+| Metric | Count |
+|--------|-------|
+| PubMed articles scanned | 78 (across 7 pathways) |
+| ChEMBL bioactivity records | 808 (for 11 innate immune targets) |
+| Curated protein-protein interactions | 28 (with PMID citations) |
+| Reference drugs with innate immune evidence | 15 |
+| Reactome pathway participants | 2,369 |
+| Innate immune targets tracked | 24 |
+| Pathways covered | 7 |
 
-### Agent 4: Hypothesis Generator
-LLM-based reasoning agent that synthesizes outputs from Agents 1-3 into ranked repurposing hypotheses. Each hypothesis includes the drug, proposed mechanism, target condition, supporting evidence chain, confidence tier, and suggested validation experiments.
+## Target Pathways
 
-### Agent 5: Safety Validator
-Cross-references candidates against FDA FAERS adverse event database, known drug interactions, and contraindications. Flags problematic safety signals before candidates reach human review.
-
-## Data Sources
-
-| Source | Type | Size | Access |
-|--------|------|------|--------|
-| PubMed/MEDLINE | Biomedical literature | 36M+ articles | Free API |
-| ChEMBL | Drug bioactivity | 2.4M compounds, 20M measurements | Open |
-| DrugBank | Drug information | 14,000+ drugs | Academic license |
-| BindingDB | Binding data | 2.9M data points | Open |
-| Reactome | Pathway database | 2,600+ pathways | Open |
-| InnateDB | Innate immunity interactions | 32,000+ interactions | Open |
-| KEGG | Pathway maps | 500+ pathways | Open |
-| ClinicalTrials.gov | Clinical trials | 500K+ studies | Public |
-| FDA FAERS | Adverse events | 20M+ reports | Public |
+| Pathway | Key Targets | Therapeutic Relevance |
+|---------|------------|----------------------|
+| TLR Signaling | TLR2, TLR4, TLR7, TLR9 | Pathogen recognition, inflammatory initiation |
+| Inflammasome | NLRP3, NLRC4, AIM2, Caspase-1 | IL-1β/IL-18 processing, pyroptosis |
+| cGAS-STING | cGAS, STING, TBK1 | DNA sensing, type I interferon response |
+| NF-κB | IKKβ, RelA, NEMO | Master inflammatory transcription regulator |
+| JAK-STAT | JAK1, JAK2, TYK2, STAT1 | Cytokine and interferon signal transduction |
+| Trained Immunity | mTOR, HIF-1α, KDM5 | Epigenetic reprogramming of innate immune cells |
+| Complement | C3, C5, Factor D | Innate opsonization and inflammatory cascading |
 
 ## Quick Start
 
 ```bash
-# Clone the repository
+# Clone
 git clone https://github.com/harshith-vaddiparthy/immunex.git
 cd immunex
 
-# Install dependencies
+# Install
 pip install -r requirements.txt
 
-# Set up environment
-cp .env.example .env
-# Add your API keys (NCBI, OpenAI/Azure)
+# Fetch biomedical data (ChEMBL, Reactome, InnateDB)
+python scripts/fetch_data.py
 
-# Run the literature scanner
-python -m src.agents.literature_scanner --query "innate immunity drug repurposing" --max-results 100
-
-# Build the knowledge graph
-python -m src.knowledge_graph.builder --sources drugbank,chembl,reactome,innatedb
+# Scan PubMed for a specific pathway
+python -m src.agents.literature_scanner --pathway inflammasome --max-results 50
 
 # Run the full pipeline
-python -m src.pipeline --target-pathway "TLR signaling" --output results/
+python -m src.pipeline --pathway inflammasome --output results/
+
+# Start the API dashboard
+python -m src.api.server
+# Open http://localhost:8051
 ```
+
+## Data Sources
+
+All primary data sources are publicly available:
+
+| Source | Records | Type | Access |
+|--------|---------|------|--------|
+| PubMed/MEDLINE | 36M+ articles | Biomedical literature | Free API |
+| ChEMBL | 2.4M compounds | Drug bioactivity | Open access |
+| DrugBank | 14,000+ drugs | Drug information | Academic license |
+| BindingDB | 2.9M data points | Binding affinity | Open access |
+| Reactome | 2,600+ pathways | Biological pathways | Open access |
+| InnateDB | 32,000+ interactions | Innate immunity | Open access |
+| KEGG | 500+ pathways | Metabolic/signaling | Open access |
+| ClinicalTrials.gov | 500K+ studies | Clinical trials | Public |
+| FDA FAERS | 20M+ reports | Adverse events | Public |
 
 ## Project Structure
 
@@ -110,68 +112,65 @@ python -m src.pipeline --target-pathway "TLR signaling" --output results/
 immunex/
 ├── src/
 │   ├── agents/
-│   │   ├── literature_scanner.py    # PubMed/bioRxiv mining
-│   │   ├── molecular_reasoner.py    # GNN drug-target prediction
-│   │   ├── kg_builder.py            # Knowledge graph construction
-│   │   ├── hypothesis_generator.py  # LLM reasoning + ranking
-│   │   └── safety_validator.py      # FAERS + interaction checking
+│   │   ├── literature_scanner.py     # PubMed mining + LLM extraction
+│   │   ├── molecular_reasoner.py     # GNN drug-target prediction
+│   │   ├── hypothesis_generator.py   # Evidence synthesis + ranking
+│   │   └── safety_validator.py       # FAERS + interaction checking
 │   ├── knowledge_graph/
-│   │   ├── builder.py               # Graph construction
-│   │   ├── embeddings.py            # TransE/RotatE training
-│   │   └── query.py                 # Graph querying + link prediction
+│   │   └── builder.py                # Multi-source graph construction
 │   ├── models/
-│   │   ├── gnn.py                   # Graph neural network
-│   │   └── embeddings.py            # KG embedding models
+│   │   ├── gnn.py                    # Drug-target GNN architecture
+│   │   └── embeddings.py             # TransE/RotatE for link prediction
 │   ├── api/
-│   │   ├── server.py                # REST API
-│   │   └── dashboard.py             # Interactive web dashboard
-│   └── utils/
-│       ├── pubmed.py                # PubMed API client
-│       ├── chembl.py                # ChEMBL data loader
-│       ├── drugbank.py              # DrugBank parser
-│       └── faers.py                 # FAERS data loader
-├── data/                            # Raw and processed data
-├── docs/                            # Documentation
-├── tests/                           # Test suite
-├── scripts/                         # Utility scripts
-├── requirements.txt
-├── .env.example
-└── pyproject.toml
+│   │   └── server.py                 # FastAPI dashboard + REST API
+│   ├── utils/                        # Data source clients
+│   └── pipeline.py                   # Full pipeline orchestration
+├── data/                             # Fetched biomedical data
+├── results/                          # Pipeline output + scan results
+├── scripts/
+│   └── fetch_data.py                 # Data fetching pipeline
+├── docs/
+│   └── ARCHITECTURE.md               # System architecture documentation
+└── tests/                            # Test suite
 ```
 
-## Innate Immune Targets
+## API
 
-IMMUNEX focuses on key innate immune pathways and their druggable targets:
+Start the dashboard and API:
 
-| Pathway | Key Targets | Relevance |
-|---------|------------|-----------|
-| TLR Signaling | TLR2, TLR4, TLR7, TLR9 | Pathogen recognition, inflammation |
-| Inflammasome | NLRP3, NLRC4, AIM2 | IL-1β/IL-18 processing, pyroptosis |
-| cGAS-STING | cGAS, STING, TBK1 | DNA sensing, type I IFN response |
-| NF-κB | IKKβ, RelA, NEMO | Master inflammatory regulator |
-| JAK-STAT | JAK1, JAK2, TYK2, STAT1 | Cytokine signaling |
-| Trained Immunity | mTOR, HIF-1α, KDM5 | Epigenetic reprogramming of monocytes |
-| Complement | C3, C5, Factor D | Innate immune opsonization |
+```bash
+python -m src.api.server
+```
 
-## Alignment
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `GET` | `/` | Interactive dashboard |
+| `GET` | `/health` | System health + KG statistics |
+| `GET` | `/targets` | All 24 innate immune targets |
+| `GET` | `/pathways` | All 7 tracked pathways |
+| `GET` | `/candidates` | Ranked repurposing candidates |
+| `GET` | `/kg/stats` | Knowledge graph statistics |
 
-This project aligns with [ARIA's Sculpting Innate Immunity](https://aria.org.uk/opportunity-spaces/sculpting-innate-immunity/) opportunity space and their Sustained Viral Resilience programme. By identifying existing drugs that modulate innate immune pathways, IMMUNEX accelerates the development of broad-spectrum therapeutic approaches.
+## ARIA Alignment
 
-Built as part of the [Encode: AI for Science Fellowship](https://encode.pillar.vc/) (Pillar VC x ARIA).
+This project aligns with [ARIA's Sculpting Innate Immunity](https://aria.org.uk/opportunity-spaces/sculpting-innate-immunity/) opportunity space by systematically identifying existing drugs that can modulate innate immune pathways with precision. Directly applicable to ARIA's Sustained Viral Resilience programme.
 
 ## References
 
-1. Pushpakom, S. et al. "Drug repurposing: progress, challenges and recommendations." *Nature Reviews Drug Discovery* 18, 41-58 (2019)
-2. Stokes, J.M. et al. "A Deep Learning Approach to Antibiotic Discovery." *Cell* 180, 688-702 (2020)
-3. Netea, M.G. et al. "Trained immunity: a program of innate immune memory in health and disease." *Science* 352, aaf1098 (2016)
+1. Pushpakom, S. et al. "Drug repurposing: progress, challenges and recommendations." *Nature Reviews Drug Discovery* 18, 41-58 (2019). [DOI: 10.1038/nrd.2018.168](https://doi.org/10.1038/nrd.2018.168)
+2. Stokes, J.M. et al. "A Deep Learning Approach to Antibiotic Discovery." *Cell* 180, 688-702 (2020). [DOI: 10.1016/j.cell.2020.01.021](https://doi.org/10.1016/j.cell.2020.01.021)
+3. Netea, M.G. et al. "Trained immunity: a program of innate immune memory in health and disease." *Science* 352, aaf1098 (2016). [DOI: 10.1126/science.aaf1098](https://doi.org/10.1126/science.aaf1098)
 
 ## License
 
 MIT
 
-## Author
+---
 
-**Harshith Vaddiparthy** - AI Systems Architect
-- [LinkedIn](https://linkedin.com/in/harshith-vaddiparthy)
-- [Twitter/X](https://x.com/harshith)
-- Forbes Technology Council Member
+<div align="center">
+
+Built by [Harshith Vaddiparthy](https://harshith.com) for the [Encode: AI for Science Fellowship](https://encode.pillar.vc) (Pillar VC x ARIA)
+
+[LinkedIn](https://linkedin.com/in/harshith-vaddiparthy) | [Twitter/X](https://x.com/harshith) | [Website](https://harshith.com/immunex)
+
+</div>
