@@ -1,0 +1,41 @@
+[project]
+name = "immunex"
+version = "0.1.0"
+description = "Autonomous Multi-Agent AI System for Drug Repurposing in Innate Immunity"
+authors = [{name = "Harshith Vaddiparthy", email = "hi@harshith.com"}]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+    "biopython>=1.83",
+    "requests>=2.31",
+    "aiohttp>=3.9",
+    "networkx>=3.2",
+    "torch>=2.2",
+    "torch-geometric>=2.5",
+    "openai>=1.12",
+    "pandas>=2.2",
+    "numpy>=1.26",
+    "scikit-learn>=1.4",
+    "pydantic>=2.6",
+    "fastapi>=0.110",
+    "uvicorn>=0.27",
+    "rich>=13.7",
+    "typer>=0.9",
+    "python-dotenv>=1.0",
+    "rdkit-pypi>=2023.9",
+    "chembl-webresource-client>=0.10",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+    "ruff>=0.3",
+    "mypy>=1.8",
+]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
