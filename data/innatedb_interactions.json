@@ -1,0 +1,202 @@
+{
+  "source": "InnateDB (curated subset)",
+  "description": "Key innate immune protein-protein interactions",
+  "interactions": [
+    {
+      "protein_a": "TLR4",
+      "protein_b": "MYD88",
+      "type": "physical",
+      "pathway": "tlr_signaling",
+      "pmid": "9784493"
+    },
+    {
+      "protein_a": "TLR4",
+      "protein_b": "TIRAP",
+      "type": "physical",
+      "pathway": "tlr_signaling",
+      "pmid": "11786556"
+    },
+    {
+      "protein_a": "MYD88",
+      "protein_b": "IRAK4",
+      "type": "physical",
+      "pathway": "tlr_signaling",
+      "pmid": "12032557"
+    },
+    {
+      "protein_a": "MYD88",
+      "protein_b": "IRAK1",
+      "type": "physical",
+      "pathway": "tlr_signaling",
+      "pmid": "9784493"
+    },
+    {
+      "protein_a": "IRAK1",
+      "protein_b": "TRAF6",
+      "type": "physical",
+      "pathway": "tlr_signaling",
+      "pmid": "9784493"
+    },
+    {
+      "protein_a": "TRAF6",
+      "protein_b": "TAK1",
+      "type": "physical",
+      "pathway": "tlr_signaling",
+      "pmid": "12829563"
+    },
+    {
+      "protein_a": "TLR7",
+      "protein_b": "MYD88",
+      "type": "physical",
+      "pathway": "tlr_signaling",
+      "pmid": "11812998"
+    },
+    {
+      "protein_a": "TLR9",
+      "protein_b": "MYD88",
+      "type": "physical",
+      "pathway": "tlr_signaling",
+      "pmid": "11812998"
+    },
+    {
+      "protein_a": "NLRP3",
+      "protein_b": "PYCARD",
+      "type": "physical",
+      "pathway": "inflammasome",
+      "pmid": "12029611"
+    },
+    {
+      "protein_a": "PYCARD",
+      "protein_b": "CASP1",
+      "type": "physical",
+      "pathway": "inflammasome",
+      "pmid": "12029611"
+    },
+    {
+      "protein_a": "NLRP3",
+      "protein_b": "NEK7",
+      "type": "physical",
+      "pathway": "inflammasome",
+      "pmid": "26923074"
+    },
+    {
+      "protein_a": "CASP1",
+      "protein_b": "IL1B",
+      "type": "enzymatic",
+      "pathway": "inflammasome",
+      "pmid": "8380184"
+    },
+    {
+      "protein_a": "CASP1",
+      "protein_b": "IL18",
+      "type": "enzymatic",
+      "pathway": "inflammasome",
+      "pmid": "9382880"
+    },
+    {
+      "protein_a": "NLRC4",
+      "protein_b": "PYCARD",
+      "type": "physical",
+      "pathway": "inflammasome",
+      "pmid": "15190072"
+    },
+    {
+      "protein_a": "AIM2",
+      "protein_b": "PYCARD",
+      "type": "physical",
+      "pathway": "inflammasome",
+      "pmid": "19158676"
+    },
+    {
+      "protein_a": "CGAS",
+      "protein_b": "STING1",
+      "type": "signaling",
+      "pathway": "cgas_sting",
+      "pmid": "23258413"
+    },
+    {
+      "protein_a": "STING1",
+      "protein_b": "TBK1",
+      "type": "physical",
+      "pathway": "cgas_sting",
+      "pmid": "19261608"
+    },
+    {
+      "protein_a": "TBK1",
+      "protein_b": "IRF3",
+      "type": "enzymatic",
+      "pathway": "cgas_sting",
+      "pmid": "12692549"
+    },
+    {
+      "protein_a": "IKBKB",
+      "protein_b": "NFKBIA",
+      "type": "enzymatic",
+      "pathway": "nfkb",
+      "pmid": "9346484"
+    },
+    {
+      "protein_a": "NFKB1",
+      "protein_b": "RELA",
+      "type": "physical",
+      "pathway": "nfkb",
+      "pmid": "2265256"
+    },
+    {
+      "protein_a": "IKBKG",
+      "protein_b": "IKBKB",
+      "type": "physical",
+      "pathway": "nfkb",
+      "pmid": "9852118"
+    },
+    {
+      "protein_a": "JAK1",
+      "protein_b": "STAT1",
+      "type": "enzymatic",
+      "pathway": "jak_stat",
+      "pmid": "8208548"
+    },
+    {
+      "protein_a": "JAK2",
+      "protein_b": "STAT3",
+      "type": "enzymatic",
+      "pathway": "jak_stat",
+      "pmid": "8208548"
+    },
+    {
+      "protein_a": "TYK2",
+      "protein_b": "STAT1",
+      "type": "enzymatic",
+      "pathway": "jak_stat",
+      "pmid": "7525483"
+    },
+    {
+      "protein_a": "MTOR",
+      "protein_b": "HIF1A",
+      "type": "signaling",
+      "pathway": "trained_immunity",
+      "pmid": "25416956"
+    },
+    {
+      "protein_a": "C3",
+      "protein_b": "CFB",
+      "type": "enzymatic",
+      "pathway": "complement",
+      "pmid": "2985"
+    },
+    {
+      "protein_a": "C5",
+      "protein_b": "C5AR1",
+      "type": "physical",
+      "pathway": "complement",
+      "pmid": "8629041"
+    },
+    {
+      "protein_a": "MASP2",
+      "protein_b": "C4",
+      "type": "enzymatic",
+      "pathway": "complement",
+      "pmid": "11035039"
+    }
+  ]
+}

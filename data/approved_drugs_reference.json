@@ -1,0 +1,204 @@
+{
+  "source": "Curated reference set (DrugBank + literature)",
+  "total_drugs": 15,
+  "pathways_covered": [
+    "trained_immunity",
+    "jak_stat",
+    "inflammasome",
+    "complement",
+    "cgas_sting",
+    "tlr_signaling",
+    "nfkb"
+  ],
+  "drugs": [
+    {
+      "name": "Metformin",
+      "drugbank_id": "DB00331",
+      "approved_for": "Type 2 diabetes",
+      "innate_immune_evidence": "NLRP3 inflammasome inhibitor via AMPK activation",
+      "pathways": [
+        "inflammasome",
+        "nfkb"
+      ],
+      "key_pmids": [
+        "28102261",
+        "30314075"
+      ]
+    },
+    {
+      "name": "Colchicine",
+      "drugbank_id": "DB01394",
+      "approved_for": "Gout, familial Mediterranean fever",
+      "innate_immune_evidence": "Inhibits NLRP3 inflammasome assembly, reduces IL-1\u03b2",
+      "pathways": [
+        "inflammasome"
+      ],
+      "key_pmids": [
+        "27912838",
+        "33369355"
+      ]
+    },
+    {
+      "name": "Hydroxychloroquine",
+      "drugbank_id": "DB01611",
+      "approved_for": "Malaria, lupus, rheumatoid arthritis",
+      "innate_immune_evidence": "TLR7/9 antagonist, inhibits endosomal acidification",
+      "pathways": [
+        "tlr_signaling"
+      ],
+      "key_pmids": [
+        "23334546",
+        "32205204"
+      ]
+    },
+    {
+      "name": "Dexamethasone",
+      "drugbank_id": "DB01234",
+      "approved_for": "Inflammation, autoimmune conditions",
+      "innate_immune_evidence": "Broad suppression of NF-\u03baB and inflammatory cytokines",
+      "pathways": [
+        "nfkb",
+        "inflammasome"
+      ],
+      "key_pmids": [
+        "32678530"
+      ]
+    },
+    {
+      "name": "Baricitinib",
+      "drugbank_id": "DB11817",
+      "approved_for": "Rheumatoid arthritis",
+      "innate_immune_evidence": "JAK1/JAK2 inhibitor, blocks cytokine signaling",
+      "pathways": [
+        "jak_stat"
+      ],
+      "key_pmids": [
+        "32374956"
+      ]
+    },
+    {
+      "name": "Tofacitinib",
+      "drugbank_id": "DB08895",
+      "approved_for": "Rheumatoid arthritis, ulcerative colitis",
+      "innate_immune_evidence": "Pan-JAK inhibitor, suppresses type I IFN response",
+      "pathways": [
+        "jak_stat"
+      ],
+      "key_pmids": [
+        "27923984"
+      ]
+    },
+    {
+      "name": "Dimethyl fumarate",
+      "drugbank_id": "DB08908",
+      "approved_for": "Multiple sclerosis",
+      "innate_immune_evidence": "Activates Nrf2, suppresses NF-\u03baB and NLRP3",
+      "pathways": [
+        "nfkb",
+        "inflammasome"
+      ],
+      "key_pmids": [
+        "26563345"
+      ]
+    },
+    {
+      "name": "Rapamycin (Sirolimus)",
+      "drugbank_id": "DB00877",
+      "approved_for": "Organ transplant rejection",
+      "innate_immune_evidence": "mTOR inhibitor, blocks trained immunity reprogramming",
+      "pathways": [
+        "trained_immunity"
+      ],
+      "key_pmids": [
+        "25416956",
+        "26926993"
+      ]
+    },
+    {
+      "name": "Eculizumab",
+      "drugbank_id": "DB01257",
+      "approved_for": "Paroxysmal nocturnal hemoglobinuria",
+      "innate_immune_evidence": "Anti-C5 monoclonal antibody, blocks complement activation",
+      "pathways": [
+        "complement"
+      ],
+      "key_pmids": [
+        "17216530"
+      ]
+    },
+    {
+      "name": "Anakinra",
+      "drugbank_id": "DB00026",
+      "approved_for": "Rheumatoid arthritis",
+      "innate_immune_evidence": "IL-1 receptor antagonist, blocks inflammasome downstream signaling",
+      "pathways": [
+        "inflammasome"
+      ],
+      "key_pmids": [
+        "33337908"
+      ]
+    },
+    {
+      "name": "Canakinumab",
+      "drugbank_id": "DB06168",
+      "approved_for": "Cryopyrin-associated periodic syndromes",
+      "innate_immune_evidence": "Anti-IL-1\u03b2 monoclonal, CANTOS trial showed cardiovascular benefit",
+      "pathways": [
+        "inflammasome"
+      ],
+      "key_pmids": [
+        "28845751"
+      ]
+    },
+    {
+      "name": "Disulfiram",
+      "drugbank_id": "DB00822",
+      "approved_for": "Alcohol dependence",
+      "innate_immune_evidence": "Inhibits gasdermin D pore formation, blocks pyroptosis",
+      "pathways": [
+        "inflammasome"
+      ],
+      "key_pmids": [
+        "32367004"
+      ]
+    },
+    {
+      "name": "Tranilast",
+      "drugbank_id": "DB07615",
+      "approved_for": "Allergic disorders (Japan/Korea)",
+      "innate_immune_evidence": "Direct NLRP3 inhibitor, binds NACHT domain",
+      "pathways": [
+        "inflammasome"
+      ],
+      "key_pmids": [
+        "29883609"
+      ]
+    },
+    {
+      "name": "Amlexanox",
+      "drugbank_id": "DB01025",
+      "approved_for": "Aphthous ulcers",
+      "innate_immune_evidence": "TBK1/IKK\u03b5 inhibitor, modulates NF-\u03baB and interferon",
+      "pathways": [
+        "nfkb",
+        "cgas_sting"
+      ],
+      "key_pmids": [
+        "23452990"
+      ]
+    },
+    {
+      "name": "Aspirin",
+      "drugbank_id": "DB00945",
+      "approved_for": "Pain, fever, antiplatelet",
+      "innate_immune_evidence": "NF-\u03baB inhibitor via IKK\u03b2, modulates trained immunity",
+      "pathways": [
+        "nfkb",
+        "trained_immunity"
+      ],
+      "key_pmids": [
+        "21220349"
+      ]
+    }
+  ]
+}
